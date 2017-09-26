@@ -1,0 +1,22 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Snake js game",
+  "main": "snake.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pucejkri/snake.git"
+  },
+  "author": "pucejkri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pucejkri/snake/issues"
+  },
+  "homepage": "https://github.com/pucejkri/snake#readme",
+  "devDependencies": {
+    "babel": "^6.23.0"
+  }
+}
