@@ -13,12 +13,20 @@ export default class Snake {
       });
     }
     this.direction = 'right';
+    // Bind class methods
+    this.update = this.update.bind(this);
+    this.render = this.render.bind(this);
   }
   update() {
     // Did we smack a wall?
     // Did we eat ourselves?
     // Did we eat food?
     // Do we need to grow?
+    var x = this.body[0].x;
+    var y = this.body[0].y;
+    switch(this.direction) {
+      case
+    }
   }
   /** @function render
     * Render the snake
